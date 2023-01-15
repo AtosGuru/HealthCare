@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h1{
+  font-family: serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.login-wrapper{
+  background:url('../../public/background.jpg') no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.main{
+  position: absolute;
+  display: flex;
+}
+
+div.chartjs-tooltip{
+  position: absolute;
+  z-index: 1021;
+  padding: 0.25rem 0.5rem;
+  color: #fff;
+  font-size: 14px;
+  pointer-events: none;
+  background: rgba(0,0,0,.7);
+  opacity: 0;
+  transition: all .15s ease;
+  transform: translate(-50%);
+  border-radius: 0.25rem;
+}
+
+li a:hover{
+  color:white !important;
+  background-color: #329852;
+}
+.card-body a:hover{
+  color:white !important;
+}
+.container .form-check-input[type=checkbox]:checked:after {
+  display:none;
+}
+.btn {
+  margin: 15px;
+}
+
+div#toast-container {
+  margin-top: 1rem;
+  left:revert;
+  right:12px;
+}
+
+#toast-container.toast-top-full-width>.toast {
+  max-width: 300px;
+  float:right;
+}
+
+#toast-container>.toast-info {
+  background-color: #88aaff;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#toast-container>.toast-info:hover {
+  background-color: #0088ff;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+#toast-container>.toast-warning {
+  background-color: #c1bb0f;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#toast-container>.toast-warning:hover {
+  background-color: #c1f10f;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+#toast-container>.toast-success {
+  background-color: #54ff54;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#toast-container>.toast-success:hover {
+  background-color: #31ff31;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+#toast-container>.toast-error {
+  background-color: #ff6767;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+#toast-container>.toast-error:hover {
+  background-color: #ff3434;
+  opacity:1;
+  box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.assign:nth-child(0){
+  color:red;
+}
+
+.payroll.hover{
+ cursor:pointer;
+}
+.payroll.hover:hover{
+  color:red;
+}
+.form-check-label{
+  color:black;
+}
+.form-check-input:before{
+  content:none !important;
+}
+
+.sc-iBkjds{
+  padding:5px !important;
+}
+.jqNiPQ{
+  padding:0px !important;
+}
+#basic_tab-tabpane-holiday .sc-evZas,.workingTable .sc-evZas{
+  min-height: 5vh !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
